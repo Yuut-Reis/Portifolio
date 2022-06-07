@@ -38,7 +38,7 @@ Devido a isso tenho como meta pessoal que todos os meus projetos sejam construí
  </details>
  
  
-<h2> Qual a importância dos testes de software na qualidade do seu site? </h2>
+<h2> 🧪 Qual a importância dos testes de software na qualidade do seu site? </h2>
 <details>
  <br>
 
@@ -52,7 +52,13 @@ De acordo com a International Software Testing Qualifications Board (ISTQB), um 
 
 </details>
 
+<h2>Referências</h2>
+<details>
+   <ul>
+    <li></li>
+  </ul>
+</details>
 
 <hr>
 <br>
-Encontrou algum erro nas informações? Sentiu falta de algo? mande um e-mail para ingride.reis.b@gmail.com ou abra uma issue!
+Encontrou algum erro nas informações? Sentiu falta de algo? mande um e-mail para <strong>ingride.reis.b@gmail.com</strong> ou abra uma issue!
