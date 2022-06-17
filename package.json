@@ -1,0 +1,19 @@
+{
+  "name": "portifolio",
+  "version": "1.0.0",
+  "description": "Meu portifolio pessoal",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yuut-Reis/Portifolio.git"
+  },
+  "author": "Yuut",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yuut-Reis/Portifolio/issues"
+  },
+  "homepage": "https://github.com/Yuut-Reis/Portifolio#readme"
+}
