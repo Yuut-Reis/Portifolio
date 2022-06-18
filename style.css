@@ -51,6 +51,23 @@ a{
     width: 100%;
  }
 
+ .titleSection{
+   margin-bottom: 1vh;
+   font-size: 17;
+   color: #f0f0f0;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: bold;
+   text-align: center;
+ }
+
+ .text{
+   color: #f0f0f0;
+   font-size: 14px;
+   font-family: 'Open Sans', sans-serif;
+   text-align: center;
+ }
+ 
+
 
 header{
    background-color: #0103081a;
@@ -111,6 +128,7 @@ header{
  }
  .divImg{
    margin-top: 20vh;
+   margin-bottom: 20vh;
    display: flex;
    justify-content: center;
    gap: 9px;
@@ -157,5 +175,44 @@ form{
 ::placeholder{
    font-size: 18px;
    color: #f0f0f0;
+}
+
+.carrosel{
+   width: 100%;
+   z-index: 1;
+   display: flex;
+   justify-content: center;
+   overflow-x: auto;
+   justify-content: start;
+   scroll-snap-type: x mandatory;
+   position: absolute;
+   margin-bottom: 10vh;
+}
+
+.card{
+    min-width: 100%;
+    height: auto;
+    flex: none;
+    scroll-snap-align: start;
+    pointer-events: none;
+    scroll-behavior: smooth;
+}
+
+.arrow{
+   margin-right: 1vh;
+   z-index: 10;
+   position: absolute;
+   width: 30px;
+   right: 0;
+   margin-top: 6.35vh;
+}
+
+.arrow1{
+   margin-left: 1.5vh;
+   margin-top: 7vh;
+   z-index: 10;
+   top: 60px;
+   width: 16.4px;
+   left: 0;
 }
 }
