@@ -1,6 +1,6 @@
    # Olá! seja bem vindo(a) ao readme do meu portifolio! 
    
-   " 🔨 --- Em construção --- 🚜 " (Ao ser concluido esse projeto estara disponivel no git pages)
+   " 🔨 --- Em construção --- 🚜 "
 
 <hr>
 
