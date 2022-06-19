@@ -109,7 +109,7 @@ a{
    margin-top: 16vh;
    align-items: center;
    color: #f0f0f0;
-   font-size: 30px;
+   font-size: 25px;
    font-family: 'Open Sans', sans-serif;
  }
 
@@ -140,7 +140,7 @@ a{
    align-items: center;
  } 
  
- #resumeSubmit{
+ .resumeSubmit{
    width: 320px;
    height: 50px;
    border: none;
@@ -149,7 +149,7 @@ a{
    color: #020202;
    font-weight: bold;
  }
-#emailResume{
+.emailResume{
    width: 300px;
    padding: 7px;
    letter-spacing: 1px;
@@ -241,7 +241,7 @@ form{
   width: 90%;
   align-items: center;
   text-align: center;
-  background-color:#141414f1;
+  background-color:#0c0c0cf1;
   font-family: 'Open Sans', sans-serif;
   margin-top: 40vh;
   color: #f0f0f0;
@@ -261,6 +261,23 @@ form{
    display: flex;
    justify-content: center;
    gap: 5vh;
+ }
+
+ .msgArea{
+   resize: none;
+   font-size: 20px;
+   padding-left: 1vh;
+   padding-top: 1vh;
+   border: transparent;
+   width: 310px;
+   color: #f0f0f0;
+   background-color: #020202;
+   height: 190px;
+ }
+
+ .divArea{
+   margin-top: 2vh;
+   margin-bottom: 2vh;
  }
 
 }
