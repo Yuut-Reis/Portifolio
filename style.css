@@ -59,8 +59,9 @@ a{
  }
 
  .text{
+   margin-top: 4px;
    color: var(--clean-color);
-   font-size: 14px;
+   font-size: 16px;
    font-family: 'Open Sans', sans-serif;
    text-align: center;
  }
@@ -96,7 +97,7 @@ a{
   }
  
  .menu.open{
-    height: 30vh;
+    height: 40vh;
     overflow-y: auto;
     position: absolute;
     display: block; 
@@ -250,4 +251,16 @@ form{
    display: flex;
    justify-content: center;
 }
+.HobbieImg{
+   width: 80px;
+}
+
+.divHobbie{
+   margin-top: 5vh;
+   margin-bottom: 30vh;
+   display: flex;
+   justify-content: center;
+   gap: 5vh;
+ }
+
 }
