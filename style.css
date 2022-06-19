@@ -1,9 +1,7 @@
 :root{
     --dark-color: #030013;
     --clean-color: #fdfffc;
-    --blue-color: #2ec4b6;
     --magenta-color: #e71d36;
-    --yellou-color: #ff9f1c; 
 }
 
 * {
@@ -14,7 +12,7 @@
 body{
     background-color: var(--dark-color);
     font-size: 25px;
-    color: #030303;
+    color: var(--dark-color);
   }
 
 a{
@@ -52,26 +50,21 @@ a{
  }
 
  .titleSection{
-   margin-bottom: 1vh;
+   margin-top: 7vh;
    font-size: 17;
-   color: #f0f0f0;
+   color: var(--clean-color);
    font-family: 'Open Sans', sans-serif;
    font-weight: bold;
    text-align: center;
  }
 
  .text{
-   color: #f0f0f0;
+   color: var(--clean-color);
    font-size: 14px;
    font-family: 'Open Sans', sans-serif;
    text-align: center;
  }
  
-
-
-header{
-   background-color: #0103081a;
-}
 
 @media screen and (max-width: 550px) {
    .menu{
@@ -127,8 +120,8 @@ header{
    font-family: 'Secular One', sans-serif;
  }
  .divImg{
-   margin-top: 20vh;
-   margin-bottom: 20vh;
+   margin-top: 12vh;
+   margin-bottom: 30vh;
    display: flex;
    justify-content: center;
    gap: 9px;
@@ -199,7 +192,7 @@ form{
 }
 
 .arrow{
-   margin-right: 1vh;
+   margin-right: 10vh;
    z-index: 10;
    position: absolute;
    width: 30px;
@@ -208,11 +201,53 @@ form{
 }
 
 .arrow1{
-   margin-left: 1.5vh;
+   position: absolute;
+   margin-left: 10.5vh;
    margin-top: 7vh;
    z-index: 10;
-   top: 60px;
-   width: 16.4px;
+   width: 16.45px;
    left: 0;
+}
+
+::-webkit-scrollbar{
+   background-color: transparent;
+}
+
+.textSkilss{
+   margin-top: 5vh;
+   color: var(--clean-color);
+   font-size: 20px;
+   font-family: 'Open Sans', sans-serif;
+   text-align: center;
+}
+
+.levelProgress{
+   height: 6px;
+   width: 200px;
+   background-color: #504e4e;
+
+}
+
+.levelDiv{
+   align-items: center;
+   margin-top: 5vh;
+   display: flex;
+   justify-content: center;
+   gap: 3vh;
+}
+
+.softDiv{
+  width: 90%;
+  align-items: center;
+  text-align: center;
+  background-color:#141414f1;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 40vh;
+  color: #f0f0f0;
+}
+
+.softSection{
+   display: flex;
+   justify-content: center;
 }
 }
