@@ -141,6 +141,8 @@ a{
  } 
  
  .resumeSubmit{
+   font-family: 'Open Sans', sans-serif;
+   font-weight: bold;
    width: 320px;
    height: 50px;
    border: none;
@@ -150,11 +152,14 @@ a{
    font-weight: bold;
  }
 .emailResume{
+   line-height: 1.3;
+   letter-spacing: 0.7px;
+   font-family: 'Open Sans', sans-serif;
    width: 300px;
    padding: 7px;
    letter-spacing: 1px;
    color: white;
-   font-size: 13px;
+   font-size: 16px;
    border: none;
    background-color: transparent;
    border-bottom: 2px solid rgb(255, 255, 255);
@@ -167,6 +172,9 @@ form{
    justify-content: center;
 }
 ::placeholder{
+   line-height: 1.3;
+   letter-spacing: 0.7px;
+   font-family: 'Open Sans', sans-serif;
    font-size: 18px;
    color: #f0f0f0;
 }
@@ -184,6 +192,7 @@ form{
 }
 
 .card{
+   font-family: 'Open Sans', sans-serif;
     min-width: 100%;
     height: auto;
     flex: none;
@@ -280,4 +289,58 @@ form{
    margin-bottom: 2vh;
  }
 
+ .projectImg{
+   border: #fcf7f7 solid 1px;
+   width: 300px;
+ }
+
+.textSkilss {
+   line-height: 1.3;
+  letter-spacing: 0.9px;
+}
+.text {
+   letter-spacing: 0.9px; 
+}
+
+
+
+.projectCard{
+   margin-top: 3vh;
+   font-family: 'Open Sans', sans-serif;
+   color: #f8f8f8;
+   align-items: center;
+   flex: none;
+    scroll-snap-align: center;
+    pointer-events: none;
+    scroll-behavior: smooth;
+}
+
+.headerProject{
+   display: flex;
+   justify-content:space-around;
+   margin-bottom: 1vh;
+}
+
+.projectImgDiv{
+   display: flex;
+   justify-content: center;
+}
+
+.carroselProject{
+   width: 100%;
+   z-index: 1;
+   display: flex;
+   justify-content: center;
+   overflow-x: auto;
+   justify-content: start;
+   scroll-snap-type: x mandatory;
+   margin-bottom: 12vh;
+   gap: 2vh;
+}
+.divSobre{
+   display: flex;
+   justify-content: center;
+   margin-left: 2vh;
+   margin-right: 2vh;
+}
 }
