@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Yuut-Reis/Portifolio/issues"
   },
-  "homepage": "https://github.com/Yuut-Reis/Portifolio#readme"
+  "homepage": "https://github.com/Yuut-Reis/Portifolio#readme",
+  "dependencies": {
+    "nodemailer": "^6.7.5"
+  }
 }

@@ -239,6 +239,29 @@ form{
 
 }
 
+.levelProgressFull{
+   height: 6px;
+   width: 200px;
+   background-color: var(--magenta-color);
+   animation-name: levelProgressFull;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+
+}
+
+.levelProgressFull::after{
+
+}
+
+@keyframes levelProgressFull {
+   from{
+      width: 0;
+   }
+   to{
+      width: 120px;;
+   }
+}
+
 .levelDiv{
    align-items: center;
    margin-top: 5vh;
@@ -257,7 +280,7 @@ form{
   color: var(--clean-color);
 }
 
-.softSection{
+#softSection{
    display: flex;
    justify-content: center;
 }
@@ -383,5 +406,13 @@ border: 1px solid var(--clean-color);
    display: flex;
    justify-content: center;
    margin-bottom: 4vh
+}
+
+.contactSection{
+   margin-top:  20vh;
+}
+
+.clickLine{
+   text-decoration: underline;
 }
 }
