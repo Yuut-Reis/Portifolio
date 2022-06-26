@@ -1,5 +1,7 @@
 :root{
     --dark-color: #030013;
+    --black-color: #020202;
+    --gray-color: #161616;
     --clean-color: #fdfffc;
     --magenta-color: #e71d36;
 }
@@ -12,7 +14,8 @@
 body{
     background-color: var(--dark-color);
     font-size: 25px;
-    color: var(--dark-color);
+    color: var(--clean-color);
+    font-family: 'Open Sans', sans-serif;
   }
 
 a{
@@ -108,7 +111,6 @@ a{
    padding-left: 2vh;
    margin-top: 16vh;
    align-items: center;
-   color: #f0f0f0;
    font-size: 25px;
    font-family: 'Open Sans', sans-serif;
  }
@@ -117,7 +119,6 @@ a{
    display: flex;
    font-size: 43px;
    justify-content: center;
-   color: #f0f0f0;
    font-family: 'Secular One', sans-serif;
  }
  .divImg{
@@ -147,8 +148,8 @@ a{
    height: 50px;
    border: none;
    font-size: 18px;
-   background-color: #e71d36;
-   color: #020202;
+   background-color: var(--magenta-color);
+   color: var(--clean-color) ;
    font-weight: bold;
  }
 .emailResume{
@@ -158,11 +159,11 @@ a{
    width: 300px;
    padding: 7px;
    letter-spacing: 1px;
-   color: white;
+   color: var(--clean-color);
    font-size: 16px;
    border: none;
    background-color: transparent;
-   border-bottom: 2px solid rgb(255, 255, 255);
+   border-bottom: 2px solid var(--clean-color);
    margin: 10px;
 }
 form{
@@ -176,7 +177,7 @@ form{
    letter-spacing: 0.7px;
    font-family: 'Open Sans', sans-serif;
    font-size: 18px;
-   color: #f0f0f0;
+   color: var(--clean-color);
 }
 
 .carrosel{
@@ -234,7 +235,7 @@ form{
 .levelProgress{
    height: 6px;
    width: 200px;
-   background-color: #504e4e;
+   background-color: gray;
 
 }
 
@@ -250,10 +251,10 @@ form{
   width: 90%;
   align-items: center;
   text-align: center;
-  background-color:#0c0c0cf1;
+  background-color: var(--gray-color);
   font-family: 'Open Sans', sans-serif;
   margin-top: 40vh;
-  color: #f0f0f0;
+  color: var(--clean-color);
 }
 
 .softSection{
@@ -278,9 +279,10 @@ form{
    padding-left: 1vh;
    padding-top: 1vh;
    border: transparent;
+   font-family: 'Open Sans', sans-serif;
    width: 310px;
-   color: #f0f0f0;
-   background-color: #020202;
+   color: var(--clean-color);
+   background-color: var(--gray-color);
    height: 190px;
  }
 
@@ -290,7 +292,6 @@ form{
  }
 
  .projectImg{
-   border: #fcf7f7 solid 1px;
    width: 300px;
  }
 
@@ -305,14 +306,14 @@ form{
 
 
 .projectCard{
-   margin-top: 3vh;
+  /*  margin-top: 3vh; */
    font-family: 'Open Sans', sans-serif;
-   color: #f8f8f8;
+   color: var(--clean-color);
    align-items: center;
    flex: none;
-    scroll-snap-align: center;
-    pointer-events: none;
-    scroll-behavior: smooth;
+   scroll-snap-align: center;
+   pointer-events: none;
+   scroll-behavior: smooth;
 }
 
 .headerProject{
@@ -334,7 +335,7 @@ form{
    overflow-x: auto;
    justify-content: start;
    scroll-snap-type: x mandatory;
-   margin-bottom: 12vh;
+   margin-bottom: 6vh;
    gap: 2vh;
 }
 .divSobre{
@@ -342,5 +343,45 @@ form{
    justify-content: center;
    margin-left: 2vh;
    margin-right: 2vh;
+}
+.arrowProject{
+   width: 20px;
+   transform: rotate(-90deg);
+   margin-bottom: 5vh;
+}
+
+.arrowDivProject{
+   margin-top: 2vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.projectTitle{
+   line-height: 1.1;
+   margin-left: 5vh;
+   font-size: 43px;
+   color: var(--clean-color);
+   font-family: 'Secular One', sans-serif;
+}
+
+.projectTitleDiv{
+   margin-top: 15vh;
+}
+
+.line{
+
+margin-top: 7vh;
+width: 258.02px;
+height: 0px;
+left: 44px;
+top: 216px;
+border: 1px solid var(--clean-color);
+
+}
+.lineDiv{
+   display: flex;
+   justify-content: center;
+   margin-bottom: 4vh
 }
 }
