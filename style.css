@@ -44,8 +44,9 @@ a{
 
  .logo{
    padding-top: 5px;
+   padding-left: 6px;
    width: 100%;
-   height: 27px;
+   height: 23px;
 }
 
  aside{
@@ -240,25 +241,18 @@ form{
 }
 
 .levelProgressFull{
-   height: 6px;
-   width: 200px;
+   height: 6.1px;
+   width: 60%;
    background-color: var(--magenta-color);
    animation-name: levelProgressFull;
    animation-duration: 3s;
-   animation-iteration-count: infinite;
 
 }
 
-.levelProgressFull::after{
-
-}
 
 @keyframes levelProgressFull {
    from{
-      width: 0;
-   }
-   to{
-      width: 120px;;
+     width: 0;
    }
 }
 
