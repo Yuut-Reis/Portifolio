@@ -3,6 +3,7 @@ const iconeHamburguer = document.querySelector('.icone-hamburger');
 
 // Carrosel itens
 const carrosel = document.querySelector('.carrosel');
+const projectCarrosel = document.querySelectorAll('.projectCard');
 
 // Validation itens
 const emailResume = document.querySelector('.emailResume').value;

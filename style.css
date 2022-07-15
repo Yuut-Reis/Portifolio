@@ -38,7 +38,7 @@ a{
 
  nav li{
     list-style: none;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
     margin-left: 32px;
  }
 
@@ -71,7 +71,8 @@ a{
  }
  
 
-@media screen and (max-width: 550px) {
+
+@media screen and (max-width: 637px) {
    .menu{
     background-color: var(--dark-color);
     box-shadow: var(--magenta-color) 1px 1px 1px;
@@ -109,10 +110,11 @@ a{
  }
 
  .subTitle{
-   padding-left: 2vh;
+   display: flex;
    margin-top: 16vh;
    align-items: center;
    font-size: 25px;
+   justify-content: center;
    font-family: 'Open Sans', sans-serif;
  }
 
@@ -141,6 +143,11 @@ a{
    justify-content: center;
    align-items: center;
  } 
+
+ .resumeArea{
+   align-items: center;
+   display: block;
+ }
  
  .resumeSubmit{
    font-family: 'Open Sans', sans-serif;
@@ -375,7 +382,700 @@ form{
 }
 
 .projectTitle{
-   line-height: 1.1;
+   line-height: 1.3;
+   margin-left: 5vh;
+   font-size: 43px;
+   color: var(--clean-color);
+   font-family: 'Secular One', sans-serif;
+}
+
+.projectTitleDiv{
+   margin-top: 15vh;
+}
+
+.line{
+
+margin-top: 7vh;
+width: 258.02px;
+height: 0px;
+left: 44px;
+top: 216px;
+border: 1px solid var(--clean-color);
+
+}
+.lineDiv{
+   display: flex;
+   justify-content: center;
+   margin-bottom: 4vh
+}
+
+.contactSection{
+   margin-top:  20vh;
+}
+
+.clickLine{
+   text-decoration: underline;
+}
+}
+
+@media screen and (max-width: 638px) {
+   .menu{
+    background-color: var(--dark-color);
+    box-shadow: var(--magenta-color) 1px 1px 1px;
+    display: block;
+    height: 0;
+    overflow-y: hidden;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    transition: 0.8s;
+    visibility: hidden;
+    width: 100%;
+    z-index: 10;
+    font-size: 19px;
+
+   }
+
+   .menu li{
+    margin-top: 30px;
+   }
+
+  .icone-hamburger div{
+    width: 35px;
+    height: 2.5px;
+    background-color: var(--clean-color);
+    margin: 8px;
+  }
+ 
+ .menu.open{
+    height: 40vh;
+    overflow-y: auto;
+    position: absolute;
+    display: block; 
+    visibility: visible;
+ }
+
+ .subTitle{
+   display: flex;
+   margin-top: 16vh;
+   align-items: center;
+   font-size: 25px;
+   justify-content: center;
+   font-family: 'Open Sans', sans-serif;
+ }
+
+ .heroTitle{
+   display: flex;
+   font-size: 43px;
+   justify-content: center;
+   font-family: 'Secular One', sans-serif;
+ }
+ .divImg{
+   margin-top: 12vh;
+   margin-bottom: 30vh;
+   display: flex;
+   justify-content: center;
+   gap: 9px;
+ }
+
+ .linkImg{
+   filter: invert(100%);
+   width: 40px;
+ }
+
+ .divBtn{
+   margin-top: 2vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ } 
+
+ .resumeArea{
+   align-items: center;
+   display: block;
+ }
+ 
+ .resumeSubmit{
+   font-family: 'Open Sans', sans-serif;
+   font-weight: bold;
+   width: 320px;
+   height: 50px;
+   border: none;
+   font-size: 18px;
+   background-color: var(--magenta-color);
+   color: var(--clean-color) ;
+   font-weight: bold;
+ }
+.emailResume{
+   line-height: 1.3;
+   letter-spacing: 0.7px;
+   font-family: 'Open Sans', sans-serif;
+   width: 300px;
+   padding: 7px;
+   letter-spacing: 1px;
+   color: var(--clean-color);
+   font-size: 16px;
+   border: none;
+   background-color: transparent;
+   border-bottom: 2px solid var(--clean-color);
+   margin: 10px;
+}
+form{
+   margin-top: 8vh;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+::placeholder{
+   line-height: 1.3;
+   letter-spacing: 0.7px;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 18px;
+   color: var(--clean-color);
+}
+
+.carrosel{
+   width: 100%;
+   z-index: 1;
+   display: flex;
+   justify-content: center;
+   overflow-x: auto;
+   justify-content: start;
+   scroll-snap-type: x mandatory;
+   position: absolute;
+   margin-bottom: 10vh;
+}
+
+.card{
+   font-family: 'Open Sans', sans-serif;
+    min-width: 100%;
+    height: auto;
+    flex: none;
+    scroll-snap-align: start;
+    pointer-events: none;
+    scroll-behavior: smooth;
+}
+
+.arrow{
+   margin-right: 10vh;
+   z-index: 10;
+   position: absolute;
+   width: 30px;
+   right: 0;
+   margin-top: 6.35vh;
+}
+
+.arrow1{
+   position: absolute;
+   margin-left: 10.5vh;
+   margin-top: 7vh;
+   z-index: 10;
+   width: 16.45px;
+   left: 0;
+}
+
+::-webkit-scrollbar{
+   background-color: transparent;
+}
+
+.textSkilss{
+   margin-top: 5vh;
+   color: var(--clean-color);
+   font-size: 20px;
+   font-family: 'Open Sans', sans-serif;
+   text-align: center;
+}
+
+.levelProgress{
+   height: 6px;
+   width: 200px;
+   background-color: gray;
+
+}
+
+.levelProgressFull{
+   height: 6.1px;
+   width: 60%;
+   background-color: var(--magenta-color);
+   animation-name: levelProgressFull;
+   animation-duration: 3s;
+
+}
+
+
+@keyframes levelProgressFull {
+   from{
+     width: 0;
+   }
+}
+
+.levelDiv{
+   align-items: center;
+   margin-top: 5vh;
+   display: flex;
+   justify-content: center;
+   gap: 3vh;
+}
+
+.softDiv{
+  width: 90%;
+  align-items: center;
+  text-align: center;
+  background-color: var(--gray-color);
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 40vh;
+  color: var(--clean-color);
+}
+
+#softSection{
+   display: flex;
+   justify-content: center;
+}
+.HobbieImg{
+   width: 80px;
+}
+
+.divHobbie{
+   margin-top: 5vh;
+   margin-bottom: 30vh;
+   display: flex;
+   justify-content: center;
+   gap: 5vh;
+ }
+
+ .msgArea{
+   resize: none;
+   font-size: 20px;
+   padding-left: 1vh;
+   padding-top: 1vh;
+   border: transparent;
+   font-family: 'Open Sans', sans-serif;
+   width: 310px;
+   color: var(--clean-color);
+   background-color: var(--gray-color);
+   height: 190px;
+ }
+
+ .divArea{
+   margin-top: 2vh;
+   margin-bottom: 2vh;
+ }
+
+ .projectImg{
+   width: 300px;
+ }
+
+.textSkilss {
+   line-height: 1.3;
+  letter-spacing: 0.9px;
+}
+.text {
+   letter-spacing: 0.9px; 
+}
+
+
+
+.projectCard{
+  /*  margin-top: 3vh; */
+   font-family: 'Open Sans', sans-serif;
+   color: var(--clean-color);
+   align-items: center;
+   flex: none;
+   scroll-snap-align: center;
+   pointer-events: none;
+   scroll-behavior: smooth;
+}
+
+.headerProject{
+   display: flex;
+   justify-content:space-around;
+   margin-bottom: 1vh;
+}
+
+.projectImgDiv{
+   display: flex;
+   justify-content: center;
+}
+
+.carroselProject{
+   width: 100%;
+   z-index: 1;
+   display: flex;
+   justify-content: center;
+   overflow-x: auto;
+   justify-content: start;
+   scroll-snap-type: x mandatory;
+   margin-bottom: 6vh;
+   gap: 2vh;
+}
+.divSobre{
+   display: flex;
+   justify-content: center;
+   margin-left: 2vh;
+   margin-right: 2vh;
+}
+.arrowProject{
+   width: 20px;
+   transform: rotate(-90deg);
+   margin-bottom: 5vh;
+}
+
+.arrowDivProject{
+   margin-top: 2vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.projectTitle{
+   line-height: 1.3;
+   margin-left: 5vh;
+   font-size: 43px;
+   color: var(--clean-color);
+   font-family: 'Secular One', sans-serif;
+}
+
+.projectTitleDiv{
+   margin-top: 15vh;
+}
+
+.line{
+
+margin-top: 7vh;
+width: 258.02px;
+height: 0px;
+left: 44px;
+top: 216px;
+border: 1px solid var(--clean-color);
+
+}
+.lineDiv{
+   display: flex;
+   justify-content: center;
+   margin-bottom: 4vh
+}
+
+.contactSection{
+   margin-top:  20vh;
+}
+
+.clickLine{
+   text-decoration: underline;
+}
+}
+
+
+@media screen and (min-width: 638px) {
+   .menu{
+    background-color: var(--dark-color);
+    box-shadow: var(--magenta-color) 1px 1px 1px;
+    display: block;
+    height: 0;
+    overflow-y: hidden;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    transition: 0.8s;
+    visibility: hidden;
+    width: 100%;
+    z-index: 10;
+    font-size: 19px;
+
+   }
+
+   .menu li{
+    margin-top: 30px;
+   }
+
+  .icone-hamburger div{
+    width: 35px;
+    height: 2.5px;
+    background-color: var(--clean-color);
+    margin: 8px;
+  }
+ 
+ .menu.open{
+    height: 40vh;
+    overflow-y: auto;
+    position: absolute;
+    display: block; 
+    visibility: visible;
+ }
+
+ .subTitle{
+   display: flex;
+   margin-top: 16vh;
+   align-items: center;
+   font-size: 25px;
+   justify-content: center;
+   font-family: 'Open Sans', sans-serif;
+ }
+
+ .heroTitle{
+   display: flex;
+   font-size: 43px;
+   justify-content: center;
+   font-family: 'Secular One', sans-serif;
+ }
+ .divImg{
+   margin-top: 12vh;
+   margin-bottom: 30vh;
+   display: flex;
+   justify-content: center;
+   gap: 9px;
+ }
+
+ .linkImg{
+   filter: invert(100%);
+   width: 40px;
+ }
+
+ .divBtn{
+   margin-top: 2vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ } 
+
+ .resumeArea{
+   align-items: center;
+   display: block;
+ }
+ 
+ .resumeSubmit{
+   font-family: 'Open Sans', sans-serif;
+   font-weight: bold;
+   width: 320px;
+   height: 50px;
+   border: none;
+   font-size: 18px;
+   background-color: var(--magenta-color);
+   color: var(--clean-color) ;
+   font-weight: bold;
+ }
+.emailResume{
+   line-height: 1.3;
+   letter-spacing: 0.7px;
+   font-family: 'Open Sans', sans-serif;
+   width: 300px;
+   padding: 7px;
+   letter-spacing: 1px;
+   color: var(--clean-color);
+   font-size: 16px;
+   border: none;
+   background-color: transparent;
+   border-bottom: 2px solid var(--clean-color);
+   margin: 10px;
+}
+form{
+   margin-top: 8vh;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+::placeholder{
+   line-height: 1.3;
+   letter-spacing: 0.7px;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 18px;
+   color: var(--clean-color);
+}
+
+.carrosel{
+   width: 100%;
+   z-index: 1;
+   display: flex;
+   justify-content: center;
+   overflow-x: auto;
+   justify-content: start;
+   scroll-snap-type: x mandatory;
+   position: absolute;
+   margin-bottom: 10vh;
+}
+
+.card{
+   font-family: 'Open Sans', sans-serif;
+    min-width: 100%;
+    height: auto;
+    flex: none;
+    scroll-snap-align: start;
+    pointer-events: none;
+    scroll-behavior: smooth;
+}
+
+.arrow{
+   margin-right: 10vh;
+   z-index: 10;
+   position: absolute;
+   width: 30px;
+   right: 0;
+   margin-top: 6.35vh;
+}
+
+.arrow1{
+   position: absolute;
+   margin-left: 10.5vh;
+   margin-top: 7vh;
+   z-index: 10;
+   width: 16.45px;
+   left: 0;
+}
+
+::-webkit-scrollbar{
+   background-color: transparent;
+}
+
+.textSkilss{
+   margin-top: 5vh;
+   color: var(--clean-color);
+   font-size: 20px;
+   font-family: 'Open Sans', sans-serif;
+   text-align: center;
+}
+
+.levelProgress{
+   height: 6px;
+   width: 200px;
+   background-color: gray;
+
+}
+
+.levelProgressFull{
+   height: 6.1px;
+   width: 60%;
+   background-color: var(--magenta-color);
+   animation-name: levelProgressFull;
+   animation-duration: 3s;
+
+}
+
+
+@keyframes levelProgressFull {
+   from{
+     width: 0;
+   }
+}
+
+.levelDiv{
+   align-items: center;
+   margin-top: 5vh;
+   display: flex;
+   justify-content: center;
+   gap: 3vh;
+}
+
+.softDiv{
+  width: 90%;
+  align-items: center;
+  text-align: center;
+  background-color: var(--gray-color);
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 40vh;
+  color: var(--clean-color);
+}
+
+#softSection{
+   display: flex;
+   justify-content: center;
+}
+.HobbieImg{
+   width: 80px;
+}
+
+.divHobbie{
+   margin-top: 5vh;
+   margin-bottom: 30vh;
+   display: flex;
+   justify-content: center;
+   gap: 5vh;
+ }
+
+ .msgArea{
+   resize: none;
+   font-size: 20px;
+   padding-left: 1vh;
+   padding-top: 1vh;
+   border: transparent;
+   font-family: 'Open Sans', sans-serif;
+   width: 310px;
+   color: var(--clean-color);
+   background-color: var(--gray-color);
+   height: 190px;
+ }
+
+ .divArea{
+   margin-top: 2vh;
+   margin-bottom: 2vh;
+ }
+
+ .projectImg{
+   width: 300px;
+ }
+
+.textSkilss {
+   line-height: 1.3;
+  letter-spacing: 0.9px;
+}
+.text {
+   letter-spacing: 0.9px; 
+}
+
+
+
+.projectCard{
+  /*  margin-top: 3vh; */
+   font-family: 'Open Sans', sans-serif;
+   color: var(--clean-color);
+   align-items: center;
+   flex: none;
+   scroll-snap-align: center;
+   pointer-events: none;
+   scroll-behavior: smooth;
+}
+
+.headerProject{
+   display: flex;
+   justify-content:space-around;
+   margin-bottom: 1vh;
+}
+
+.projectImgDiv{
+   display: flex;
+   justify-content: center;
+}
+
+.carroselProject{
+   width: 100%;
+   z-index: 1;
+   display: flex;
+   justify-content: center;
+   overflow-x: auto;
+   justify-content: start;
+   scroll-snap-type: x mandatory;
+   margin-bottom: 6vh;
+   gap: 2vh;
+}
+.divSobre{
+   display: flex;
+   justify-content: center;
+   margin-left: 2vh;
+   margin-right: 2vh;
+}
+.arrowProject{
+   width: 20px;
+   transform: rotate(-90deg);
+   margin-bottom: 5vh;
+}
+
+.arrowDivProject{
+   margin-top: 2vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.projectTitle{
+   line-height: 1.3;
    margin-left: 5vh;
    font-size: 43px;
    color: var(--clean-color);

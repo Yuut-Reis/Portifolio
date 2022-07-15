@@ -35,7 +35,7 @@
     <p class="subTitle">Olá esta procurando uma?</p>
     <h1 class="heroTitle">WEB DEVELOPER</h1>
     <form class="resumeArea">
-      <input aria-label="email" id="emailResume" name="resumeEmail" class="emailResume" type="email" placeholder="Email">
+      <div class="divBtn"><input aria-label="email" id="emailResume" name="resumeEmail" class="emailResume" type="email" placeholder="Email"></div>
       <div class="divBtn"><button id="resumeBTN" aria-label="butão" class="resumeSubmit">Meu Curriculo</button></div>
     </form>
     <p class="text"><strong>*Receba o meu curriculo no seu e-mail</strong></p>
@@ -239,12 +239,13 @@
   <section id="contactSection">
     <h4 class="titleSection">CONTATE-ME</h4>
     <form class="resumeArea" action="https://formsubmit.co/ingride.reis.b@gmail.com" method="POST">
-      <input aria-label="Seu-nome" name="nome" class="emailResume" type="text" placeholder="Nome">
-      <input aria-label="Seu-email" name="email" class="emailResume" type="email" placeholder="Email">
-      <div class="divArea"><textarea aria-label="Sua-mensagem" name="Menssagem" class="msgArea"
+      <div class="divBtn"><input aria-label="Seu-nome" name="name" class="emailResume" type="text" placeholder="Nome"></div>
+      <div class="divBtn"><input aria-label="Seu-nome" name="subject" class="emailResume" type="text" placeholder="Assunto"></div>
+      <div class="divBtn"><input aria-label="Seu-email" name="email" class="emailResume" type="email" placeholder="Email"></div>
+      <div class="divArea divBtn"><textarea aria-label="Sua-mensagem" name="messagem" class="msgArea"
           placeholder="Menssagem..." cols="30" rows="10"></textarea></div>
       <br>
-      <div class="divBtn"><button class="resumeSubmit" aria-label="butão">Enviar</button></div>
+      <div class="divBtn"><button type="submit" class="resumeSubmit" aria-label="botão">Enviar</button></div>
     </form>
     <br>
   </section>
